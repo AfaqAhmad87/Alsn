@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #eee;
+}
+#li-list {
+  display: flex;
+
+  flex-direction: column;
+  padding: 10px;
+}
+#li-list li {
+  /* width: 100%; */
+  line-height: 2.4;
+  align-items: center;
+  gap: 17px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  border-radius: 10px;
+  display: flex;
+
+  padding: 2px 0px 2px 60px;
+}
+#li-list li:hover {
+  background-color: purple;
+  cursor: pointer;
+}
+#img {
+}
+section {
+  width: calc(80%);
+}
+.head {
+  display: none;
+}
+.head2 {
+  display: block;
+}
+#ul {
+  padding: 10px 10px 10px 10px;
+}
+/* #span::after {
+  content: "Admin";
+  font-size: larger;
+  position: relative;
+  top: -2px;
+  font-weight: bold;
+  color: #ac55aa;
+} */
